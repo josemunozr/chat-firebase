@@ -1,0 +1,24 @@
+{
+  "name": "chat-firebase",
+  "version": "1.0.0",
+  "description": "chat realtime con firebase",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3200"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/josemunozr/chat-firebase.git"
+  },
+  "keywords": [
+    "chat",
+    "firebase",
+    "realtime"
+  ],
+  "author": "José Muñoz R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josemunozr/chat-firebase/issues"
+  },
+  "homepage": "https://github.com/josemunozr/chat-firebase#readme"
+}
