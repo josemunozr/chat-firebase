@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Chat con Firebase</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.2/flexboxgrid.min.css">
+  <meta charset="UTF-8">
+  <title>Chat con Firebase</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.2/flexboxgrid.min.css">
+  <link rel="stylesheet" href="/dist/style.css">
 </head>
 <body>
-	
-	<h1>Chat con Firebase</h1>
+  
+  <div id="login" class="wrapper white row middle-xs center-xs">
+    <div class="col-xs-12">
+      <div class="box">
+        <p>Iniciar sesión antes de entrar al chat</p>
+        <button id="loginGoogle" class="btn red">Iniciar sesión con google</button>
+        <p id="user"></p>
+      </div>
+    </div>
+  </div>
 
-	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-	<script src="/js/index.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="/dist/index.js"></script>
 </body>
 </html>
